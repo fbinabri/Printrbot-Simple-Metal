@@ -423,9 +423,9 @@
   //#define PID_BED_DEBUG // Sends debug data to the serial port.
 
   //Printrbot Aluminum Heatbed with 200W Silicon Heater
-  #define DEFAULT_bedKp 505.27
-  #define DEFAULT_bedKi 90.71
-  #define DEFAULT_bedKd 703.66
+  #define DEFAULT_bedKp 278.54
+  #define DEFAULT_bedKi 44.74
+  #define DEFAULT_bedKd 433.55
 
   //120V 250W silicone heater into 4mm borosilicate (MendelMax 1.5+)
   //from FOPDT model - kp=.39 Tp=405 Tdead=66, Tc set to 79.2, aggressive factor of .15 (vs .1, 1, 10)
