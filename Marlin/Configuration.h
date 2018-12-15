@@ -308,7 +308,7 @@
 #define TEMP_SENSOR_2 0
 #define TEMP_SENSOR_3 0
 #define TEMP_SENSOR_4 0
-#define TEMP_SENSOR_BED 0  //when Heatbed Gulfcoast Robotics 200w 12v change to 11 (thermister NTC3950) 
+#define TEMP_SENSOR_BED 11  //when Heatbed Gulfcoast Robotics 200w 12v change to 11 (thermister NTC3950) 
 #define TEMP_SENSOR_CHAMBER 0
 
 // Dummy thermistor constant temperature readings, for use with 998 and 999
@@ -406,7 +406,7 @@
  * heater. If your configuration is significantly different than this and you don't understand
  * the issues involved, don't use bed PID until someone else verifies that your hardware works.
  */
-//#define PIDTEMPBED   
+#define PIDTEMPBED   
 
 //#define BED_LIMIT_SWITCHING
 
