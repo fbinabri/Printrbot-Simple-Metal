@@ -227,7 +227,7 @@
   #define SD_DETECT_PIN     49
   #define KILL_PIN          -1
 
-  #define LCD_PIN_BL 65 // backlight LED on A11/D65
+  #define LCD_BACKLIGHT_PIN 65 // backlight LED on A11/D65
 
 #endif
 
