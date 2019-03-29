@@ -107,17 +107,17 @@
 //
 // Default pins for TMC software SPI
 //
-#if ENABLED(TMC_USE_SW_SPI)
-  #ifndef TMC_SW_MOSI
-    #define TMC_SW_MOSI    66
-  #endif
-  #ifndef TMC_SW_MISO
-    #define TMC_SW_MISO    44
-  #endif
-  #ifndef TMC_SW_SCK
-    #define TMC_SW_SCK     64
-  #endif
-#endif
+//#if ENABLED(TMC_USE_SW_SPI)
+//  #ifndef TMC_SW_MOSI
+//    #define TMC_SW_MOSI    66
+//  #endif
+//  #ifndef TMC_SW_MISO
+//    #define TMC_SW_MISO    44
+//  #endif
+//  #ifndef TMC_SW_SCK
+//    #define TMC_SW_SCK     64
+//  #endif
+//#endif
 
 //
 // TMC2208 Driver
@@ -189,7 +189,7 @@
 // Heaters / Fans
 //
 #define HEATER_0_PIN	  	10
-#define HEATER_1_PIN		9
+#define HEATER_1_PIN		  9
 #define HEATER_BED_PIN		8
 #define FAN_PIN			4
 #define FAN1_PIN		44
